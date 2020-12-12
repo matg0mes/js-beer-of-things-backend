@@ -1,0 +1,40 @@
+{
+  "name": "devices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dataAlteracao": {
+      "type": "date"
+    },
+    "dataCriacao": {
+      "type": "date"
+    },
+    "tag-id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "measures": {
+      "type": "hasMany",
+      "model": "measures",
+      "foreignKey": "deviceId",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "categoryId": {
+      "type": "belongsTo",
+      "model": "devices-categories",
+      "foreignKey": "categoryId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
