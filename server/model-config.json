@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "devices": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "measures": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "devices-categories": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}

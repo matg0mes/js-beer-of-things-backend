@@ -1,0 +1,13 @@
+{
+  "mongodb": {
+    "host": "cluster0.jvnxz.mongodb.net",
+    "port": 0,
+    "url": "mongodb+srv://Admin:tbMpWiTPgaT7Mzu3@cluster0.jvnxz.mongodb.net/prod?retryWrites=true&w=majority",
+    "database": "prod",
+    "password": "tbMpWiTPgaT7Mzu3",
+    "name": "mongodb",
+    "user": "Admin",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
