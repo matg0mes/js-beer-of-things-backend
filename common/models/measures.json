@@ -1,0 +1,20 @@
+{
+  "name": "measures",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "data": {
+      "type": "string"
+    },
+    "dataCriacao": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
