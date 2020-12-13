@@ -33,6 +33,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "sector": {
+      "type": "belongsTo",
+      "model": "sectors",
+      "foreignKey": "sectorId",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],
