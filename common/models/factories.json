@@ -1,0 +1,29 @@
+{
+  "name": "factories",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string"
+    },
+    "regiao": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "sectors": {
+      "type": "hasMany",
+      "model": "sectors",
+      "foreignKey": "factoryId",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

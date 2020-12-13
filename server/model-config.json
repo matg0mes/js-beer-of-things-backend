@@ -24,5 +24,17 @@
   "devices-categories": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "sectors": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "factories": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "sectors-categories": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
